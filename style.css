@@ -1,0 +1,96 @@
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+.off{
+padding: 16px 80px;
+margin: 10px;
+border: none;
+border-radius: 8px; 
+outline: none;
+text-transform: uppercase;
+font-weight: 800;
+letter-spacing: 3px;
+color: black; 
+background: white;
+cursor: pointer;
+box-shadow: 0px 10px 30px 0px  white ;
+}
+
+.on{
+    padding: 16px 80px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px; 
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: white; 
+    background: black;
+    cursor: pointer;
+    
+}
+
+.off:hover{
+    background: black;
+    color: white;
+    transition: 0.5s linear;
+    box-shadow: 0px 10px 30px 0px  black ;
+
+}
+
+.on:hover{
+    background: white;
+    color: black;
+    box-shadow: 0px 10px 30px 0px  white ;
+    transition: 0.5s linear;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 0px 10px 30px 0px  white ;
+    color: white;
+}
+
+header:hover{
+    box-shadow: 0px 10px 30px 0px  #7fff00 ;
+    transition: 0.10s 0.5s auto;
+}
+
+.brocken{
+    padding: 16px 80px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px; 
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: white; 
+    background: black;
+    cursor: pointer;
+}
+
+.brocken:hover{
+    color: black;
+    box-shadow: 0px 10px 30px 0px  red ;
+    transition: 0.5s linear;
+    background: url(img/png-transparent-hand-painted-broken-screen-phone-glass-black-and-white-broken-screen-thumbnail.png);
+}
+
+@media screen and  (max-width: 500px){
+}
+    
+
+    
